@@ -5,10 +5,6 @@ class Qsbk(object):
     '''抓取页面'''
     def __get_html(self,url):
         html=requests.get(url).content.decode()
-        # print(html)
-        # f=open('html.html','w',encoding='utf-8')
-        # f.write(html)
-        # f.close()
         return html
     # '''匹配输出当前页面的段子'''
     def print_qsbk(self,url):
