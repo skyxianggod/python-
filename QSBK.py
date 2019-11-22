@@ -31,4 +31,3 @@ class Qsbk(object):
                 break
 hot_Qsbk=Qsbk()
 hot_Qsbk.start_print()
-print(123456)
